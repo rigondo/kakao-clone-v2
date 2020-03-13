@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4fc582e240.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Friends | Kakao Clone</title>
 </head>
 <body>
@@ -28,14 +29,17 @@
                 <i class="fas fa-search"></i>
             </span>
             <span class="header__icon">
-                <i class="fas fa-cog"></i>
+                <a href="settings.html">
+                    <i class="fas fa-cog"></i>
+                </a>
             </span>
         </div>
     </header>
     <main class="friends">
         <header class="friends__header">
-            <div class="friends__friend friend friend--lg">
+            <div class="friends__friend friend">
                 <div class="friend__column">
+                    <img src="images/chan_piano.jpg" alt="" class="g-avatar friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
                             박찬형(rigondo)
@@ -45,14 +49,13 @@
                         </span>
                     </div>
                 </div>
-                <img src="images/chan_piano.jpg" alt="" class="g-avatar friend__avatar">
             </div>
         </header>
         <div class="friends__plus">
             <h5 class="friends__title">Plus Friend</h5>  
             <div class="friends__friend friend friend">
                <div class="friend__column">
-                    <img src="images/chan_piano.jpg" alt="" class="g-avatar friend__avatar">
+                    <img src="images/plusplus.png" alt="" class="friend__avatar">
                     <div class="friend__content">
                     <span class="friend__name">
                         Plus Friend
@@ -65,13 +68,13 @@
             <h5 class="friends__title">Friends 396</h5>
             <li class="friends__friend friend friend--lg">
                 <div class="friend__column">
-                <img src="images/chan_piano.jpg" alt="" class="g-avatar friend__avatar">
+                <img src="images/lomachenko.jpg" alt="" class="friend__avatar">
                 <div class="friend__content">
                     <span class="friend__name">
-                        박찬형(rigondo)
+                        lomachenko
                     </span>
                     <span class="friend__status">
-                        Lomachenko, Mikhail Pletnev
+                        Vasily
                     </span>
                 </div>
             </div>
@@ -108,5 +111,12 @@
             </li>
         </ul>
     </nav>
+
+    <div class="bigScreen">
+        <span class="bigScreen__text">
+            plz make you screen small
+        </span>
+    </div>
+
 </body>
 </html>

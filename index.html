@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4fc582e240.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Chats | Kakao Clone</title>
 </head>
 <body>
@@ -31,7 +32,9 @@
                 <i class="fas fa-comment-dots"></i>
             </span>
             <span class="header__icon">
-                <i class="fas fa-cog"></i>
+                <a href="settings.html">
+                    <i class="fas fa-cog"></i>
+                </a>
             </span>
         </div>
     </header>
@@ -39,22 +42,29 @@
         <ul class="chats__list">
             <li class="chats__chat chat">
                <a href="chat.html">
-                    <div class="chat__column">
-                        <img class="chat_avatar g-avatar" src="images/trumph.jpg">
-                        <div class="chat__content">
-                            <span class="chat__username">
-                                Trumph
-                            </span>
-                            <span class="chat_preview">
-                                Hi~ my dude~ I'm Donald!
-                            </span>
-                        </div>
+                <div class="chats__chat friend friend--lg">
+                    <div class="friend__column">
+                    <img src="images/lomachenko.jpg" alt="" class="m-avatar friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Lomachenko
+                        </span>
+                        <span class="friend__bottom-text">
+                            u know what? my matrixShuffle???
+                        </span>
                     </div>
-                    <div class="chat__column">
-                        <span class="chat_timestamp">Yesterday</span>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__now-listening">
+                        <span class="chat__timestamp">
+                            March 12
+                        </span>
                     </div>
+                </div>
+                </div>
               </a>
             </li>
+            
         </ul>
     </main>
     </main>
@@ -66,7 +76,8 @@
                 </a>
             </li>
             <li class="nav__list-item">
-                <a href="index.html" class="nav__list-link">
+                <a href="index.html" class="nav__list-link">     
+                    <div class="nav__badge">7</div>
                     <i class="fas fa-comment"></i>
                 </a>
             </li>
@@ -82,5 +93,12 @@
             </li>
         </ul>
     </nav>
+
+    <div class="bigScreen">
+        <span class="bigScreen__text">
+            plz make you screen small
+        </span>
+    </div>
+
 </body>
 </html>
